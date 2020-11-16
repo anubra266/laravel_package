@@ -1,22 +1,22 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "anubra266/laravel_package",
+    "description": "",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "anubra266",
+        "laravel_package"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/anubra266/laravel_package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Abraham",
+            "email": "anubra266@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
+        "php": "^7.4",
         "illuminate/contracts": "^8.0"
     },
     "require-dev": {
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Anubra266\\LaravelPackage\\": "src",
+            "Anubra266\\LaravelPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Anubra266\\LaravelPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Anubra266\\LaravelPackage\\LaravelPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelPackage": "Anubra266\\LaravelPackage\\LaravelPackageFacade"
             }
         }
     },

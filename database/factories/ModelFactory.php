@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Database\Factories;
+namespace Anubra266\LaravelPackage\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 
