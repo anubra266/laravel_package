@@ -2,9 +2,9 @@
 
 namespace Anubra266\LaravelPackage\Tests;
 
+use Anubra266\LaravelPackage\LaravelPackageServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Anubra266\LaravelPackage\LaravelPackageServiceProvider;
 
 class TestCase extends Orchestra
 {

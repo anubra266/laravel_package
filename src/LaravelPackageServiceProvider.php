@@ -2,8 +2,8 @@
 
 namespace Anubra266\LaravelPackage;
 
-use Illuminate\Support\ServiceProvider;
 use Anubra266\LaravelPackage\Commands\LaravelPackageCommand;
+use Illuminate\Support\ServiceProvider;
 
 class LaravelPackageServiceProvider extends ServiceProvider
 {
